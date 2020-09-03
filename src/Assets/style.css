@@ -1,0 +1,313 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color:black;
+    text-align:right;
+}
+.navbar ul {
+    display:inline-flex;
+    margin-right:20px;
+	{/*margin-left:56%;*/}
+}
+.navbar ul li {
+	padding: 0px 14px 0px 14px;
+    list-style: none;
+    margin-top: 7px;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar ul:after{
+		content:"";
+		clear:both;
+		display:block;
+		
+}
+.navbar ul li:hover ul{
+		display:block;
+		visibility:visible;
+}
+.navbar ul ul{
+		display:none;
+		
+}
+.navbar ul li:hover{
+		background:block;
+		
+		transition:0.9s;
+}
+.navbar ul li:hover a{
+		color:white;
+		
+}
+.navbar ul ul{
+		background-color:skyblue;
+		padding:0;
+		margin:0;
+		position:absolute;
+		z-index:1;
+		top:100%;
+}
+.navbar ul ul li{
+		float:none;
+		position:relative;
+}
+.navbar ul ul li a{
+		padding:10px;
+		color:red;
+		width:300px;
+		text-align:left;
+}
+.navbar ul ul li a:hover{
+		background:red;
+}
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 450px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.card-title {
+    font-size: 25px;
+    margin-bottom: .75rem;
+    text-align: center;
+    font-weight: 700;
+}
+.MuiFormControl-root {
+    margin: 20px 50px !important;
+}
+.MuiButton-containedPrimary {
+    margin: 10px 20px !important;
+}
+.MuiButton-contained {
+    margin: 10px 20px !important;
+}
+.button{
+    text-align: right !important;
+    margin-top: 20px 0px !important;
+}
+.card {
+    height: 500px !important;
+    background-color: ghostwhite;
+}
+.bannerImg img{
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.serviceRow{
+    margin:30px 30px;
+}
+.serviceRow div{
+    padding: 30px 30px;
+}
+.pad0{
+    padding: 0;
+}
+.serviceComponent{
+    background-color: lavender !important;
+    width:340px;
+    height:300px;  
+}
+.serviceInner{
+	background-color:skyblue;
+	height:240px;
+	
+}
+.serviceComponent img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: lavender !important;  
+}
+.serviceComponent h4{
+    margin: 14px 0px;
+}
+.TyicalTxt{
+	position: absolute;
+    z-index: 10;
+    color: #fff;
+    /* margin: auto; */
+    font-size: 31px;
+    vertical-align: middle;
+    top: 44%;
+    left: 36%;
+	}
+.divTask{
+	margin:0px 60px;
+}
+.showOutPut{
+	margin:40px 0px;
+}
+.showOutPut p{
+	margin:20px 0px;
+}
+.AnimateTxt{
+	font-size: 25px;
+	color: firebrick;
+}
+.showOutPut button{
+	padding: 5px 31px;
+    background-color: lime;
+    margin-left: 200px;
+    font-weight: 500;
+}
+.showOutPut img{
+    /* background-size: cover; */
+    width: 650px !important;
+    height: 450px;
+    margin: auto;
+}
+
+.showOutPut a:nth-child(1){
+	background-color: aqua;
+    color: black;
+    padding: 12px 18px;
+    border-radius: 20px;
+    margin-left: 50px;
+	text-decoration:none;
+}
+.showOutPut a:hover{
+	background-color: black;
+	color:white;
+}
+.showOutPut a:nth-child(2){
+	background-color: black;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px;
+    margin-left: 50px;
+	text-decoration:none;
+}
+.showOutPut a:hover{
+	background-color: aqua;
+	color:black;
+}
+
+.nextBtn{
+	background-color: blueviolet;
+    position: absolute;
+    padding: 7px 33px;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    float: right !important;
+    /* margin-right: 0px; */
+    right: 12%;
+    /* top: auto; */
+    bottom:-75px;
+    vertical-align: middle;
+}
+.prevBtn{
+	padding: 7px 33px;
+    bottom:-75px;
+    margin-left: 14%;
+    position: absolute;
+    border: none;
+    border-radius: 30px;
+    background-color: gainsboro;
+    font-size: 17px
+}
+.submitBtn{
+	background-color: crimson;
+    position: absolute;
+    padding: 7px 33px;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    float: right !important;
+    /* margin-right: 0px; */
+    right: 12%;
+    /* top: auto; */
+    bottom:-75px;
+    vertical-align: middle;
+}
+.form{
+	margin:40px 20px 10px 20px;
+}
+.form div{
+	display:inline-block;
+	padding:0px 40px;
+}
+.form label{
+	display:block;
+}
+.react-responsive-modal-modal {
+    width: 92%;
+	max-width: 92%;
+}
+.form table{
+	width: 99%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.form table tr{
+	border:1px solid;
+	padding:10px 0px;
+}
+.form table tr td{
+	width: 50%;
+    border: 1px solid;
+	padding:12px 27px;
+}
+.buttonDiv{
+	text-align:center;
+	width:100%;
+}
+.buttonDiv button:nth-child(1){
+    margin: 23px 30px;
+	background-color: aqua;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 30px;
+}
+.buttonDiv button:nth-child(2){
+	padding: 8px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin: 23px 30px;
+}
+.showEvent{
+	padding: 20px 0px;
+    text-align: center;
+}
+.showEvent button{
+	padding: 10px 52px;
+    border: none;
+    background-color: gainsboro;
+    font-size: 18px;
+}
+.fc-toolbar-chunk{
+	margin-right:50px;
+}
+.innerModal{
+	width: 65%;
+    height: 303px;
+    z-index: 3;
+    margin: 19% 17% !important;
+    /* margin: auto; */
+    position: absolute;
+    padding: 1.2rem;
+    background: #ffffff;
+    background-clip: padding-box;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+}
+.innerModal button{
+	float: right;
+    margin: 90px 30px;
+}
